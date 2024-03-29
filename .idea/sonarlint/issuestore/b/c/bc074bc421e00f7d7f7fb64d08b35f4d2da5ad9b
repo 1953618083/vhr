@@ -1,0 +1,11 @@
+
+l
+java:S1450"VRemove the "binding" field and declare it as a local variable in the relevant methods.(¶ÃÊ
+Q
+java:S1854$";Remove this useless assignment to local variable "navView".(‹Å´Í
+B
+java:S1481$",Remove this unused "navView" local variable.(‹Å´Í
+j
+java:S3252="OUse static access with "android.content.DialogInterface" for "BUTTON_POSITIVE".(­äÿ†øÿÿÿÿ
+e
+java:S3252>"OUse static access with "android.content.DialogInterface" for "BUTTON_NEGATIVE".(§­ı
