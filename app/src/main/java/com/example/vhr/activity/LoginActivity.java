@@ -13,6 +13,7 @@ import android.text.method.PasswordTransformationMethod;
 import android.util.Log;
 import android.view.View;
 import android.view.Window;
+import android.widget.Button;
 import android.widget.CheckBox;
 import android.widget.CompoundButton;
 import android.widget.EditText;
@@ -37,7 +38,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class LoginActivity extends AppCompatActivity {
-
+    private Button signup;
     private ImageButton btn_login;
     private ImageView mClearUserNameView, mClearPasswordView;
     private EditText et_input_username, et_input_password;
@@ -46,7 +47,10 @@ public class LoginActivity extends AppCompatActivity {
     private String userpass = "";
     private TransitionDrawable transitionDrawable;
     private Admin admin;
+
     //private boolean isAutoLogin = false;
+
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -60,6 +64,8 @@ public class LoginActivity extends AppCompatActivity {
         mEyeView.setOnCheckedChangeListener(new eyeClick());
         btn_login.setOnClickListener(new loginButton());
 
+        signup = findViewById(R.id.btn_register);
+        signup.setOnClickListener(new regTextView());
     }
 
     private void init() {
