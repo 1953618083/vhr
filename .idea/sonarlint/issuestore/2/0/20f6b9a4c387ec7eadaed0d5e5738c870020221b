@@ -1,0 +1,36 @@
+
+l	java:S117‘"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¸­òûıÿÿÿÿ
+=
+java:S1604V"(Make this anonymous inner class a lambda(ô§ê
+a
+java:S1301C"KReplace this "switch" statement by "if" statements to increase readability.(ºÖ
+@
+java:S1659 "%Declare "publish" on a separate line.(ÔÒ»ùÿÿÿÿ
+\
+java:S1659""ADeclare "base" and all following declarations on a separate line.(±°­ºúÿÿÿÿ
+p
+java:S1450 "URemove the "cancel" field and declare it as a local variable in the relevant methods.(ÔÒ»ùÿÿÿÿ
+p
+java:S1450#"ZRemove the "popupWindow" field and declare it as a local variable in the relevant methods.(¥¢““
+q
+java:S1450 "VRemove the "publish" field and declare it as a local variable in the relevant methods.(ÔÒ»ùÿÿÿÿ
+\
+java:S1854N"ARemove this useless assignment to local variable "departmentId1".(Ó¦¤¶üÿÿÿÿ
+7	java:S131C""Add a default case to this switch.(ºÖ
+N	java:S106H"9Replace this use of System.out or System.err by a logger.(Ì´Ê÷
+M
+java:S1481N"2Remove this unused "departmentId1" local variable.(Ó¦¤¶üÿÿÿÿ
+S	java:S106O"9Replace this use of System.out or System.err by a logger.(ïÈ™øøÿÿÿÿ
+N	java:S106P"9Replace this use of System.out or System.err by a logger.(ö¡¹ê
+V	java:S125Z"<This block of commented-out lines of code should be removed.(”Š¥ûÿÿÿÿ
+S	java:S106]"9Replace this use of System.out or System.err by a logger.(˜Š¿Ûüÿÿÿÿ
+N	java:S106_"9Replace this use of System.out or System.err by a logger.(éÃÒõ
+S	java:S106`"9Replace this use of System.out or System.err by a logger.(øù´şüÿÿÿÿ
+N	java:S106e"9Replace this use of System.out or System.err by a logger.(ÙÅÖ
+t
+java:S2142u"^Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.(ä ¹€
+V	java:S125n"<This block of commented-out lines of code should be removed.(ì‡‹¦ÿÿÿÿÿ
+M
+java:S1874ˆ"6Remove this use of "BitmapDrawable"; it is deprecated.(ÆŸîÚ
+:
+java:S3398ƒ"Move this method into "Click".(Ê½ğäûÿÿÿÿ
