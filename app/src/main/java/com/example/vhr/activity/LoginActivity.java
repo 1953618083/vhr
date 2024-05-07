@@ -38,7 +38,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class LoginActivity extends AppCompatActivity {
-    //private Button signup;
+    private Button signup;
     private ImageButton btn_login;
     private ImageView mClearUserNameView, mClearPasswordView;
     private EditText et_input_username, et_input_password;
