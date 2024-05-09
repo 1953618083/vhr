@@ -1,0 +1,70 @@
+
+k
+java:S1192’"HDefine a constant instead of duplicating this literal "doLogin" 3 times.(®ÁÜøÿÿÿÿ8ŞÓÓëô1
+E
+java:S1604U"(Make this anonymous inner class a lambda(ÏÊ†8ßÓÓëô1
+J
+java:S1604["(Make this anonymous inner class a lambda(ø‡ˆêúÿÿÿÿ8àÓÓëô1
+E
+java:S1604ƒ"(Make this anonymous inner class a lambda(ô§ê8áÓÓëô1
+F
+java:S1604±"(Make this anonymous inner class a lambda(’Ë÷ú8áÓÓëô1
+F
+java:S1604×"(Make this anonymous inner class a lambda(†£°î8âÓÓëô1
+F
+java:S1604ñ"(Make this anonymous inner class a lambda(†£°î8âÓÓëô1
+F
+java:S1604€"(Make this anonymous inner class a lambda(’Ë÷ú8ãÓÓëô1
+K
+java:S1604"(Make this anonymous inner class a lambda(‘ĞáÖÿÿÿÿÿ8ãÓÓëô1
+n	java:S101q"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(Ù£ç»şÿÿÿÿ8åÓÓëô1
+o	java:S101 "MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(óÚÃÿüÿÿÿÿ8åÓÓëô1
+o	java:S101¸"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(Œ½¾Òøÿÿÿÿ8æÓÓëô1
+p	java:S116*"TRename this field "btn_login" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(®æê8¢ÔÓëô1
+x	java:S116,"\Rename this field "et_input_username" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(·×‘Ì8£ÔÓëô1
+x	java:S116,"\Rename this field "et_input_password" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(·×‘Ì8£ÔÓëô1
+F
+java:S1659+"0Declare "mClearPasswordView" on a separate line.(Ã‹Áö
+E
+java:S1659,"/Declare "et_input_password" on a separate line.(·×‘Ì
+D
+java:S1659-"'Declare "autologin" on a separate line.(ÃÚşí8©ÔÓëô1
+w
+java:S1450)"URemove the "signup" field and declare it as a local variable in the relevant methods.(Á²ıùÿÿÿÿ8Ğƒïô1
+X	java:S1253"<This block of commented-out lines of code should be removed.(¤ìÎ™8°ÔÓëô1
+T
+java:S1854H"7Remove this useless assignment to local variable "spf".(ƒÉğÃ8²ÔÓëô1
+E
+java:S1481H"(Remove this unused "spf" local variable.(ƒÉğÃ8´ÔÓëô1
+]	java:S125I"<This block of commented-out lines of code should be removed.(¹ê»Øùÿÿÿÿ8µÔÓëô1
+X	java:S125i"<This block of commented-out lines of code should be removed.(ôŒŸß8¸ÔÓëô1
+X	java:S125"<This block of commented-out lines of code should be removed.(Ö¸à8½ÔÓëô1
+^	java:S125‡"<This block of commented-out lines of code should be removed.(”Š¥ûÿÿÿÿ8ÀÔÓëô1
+T	java:S106Š"9Replace this use of System.out or System.err by a logger.(˜Š¿Ûüÿÿÿÿ
+V	java:S106Œ"9Replace this use of System.out or System.err by a logger.(éÃÒõ8ÅÔÓëô1
+h
+java:S3252"EUse static access with "com.alibaba.fastjson.JSON" for "parseObject".(·¥Êñşÿÿÿÿ8ÆÔÓëô1
+[	java:S106"9Replace this use of System.out or System.err by a logger.(‚Îç…ùÿÿÿÿ8ÇÔÓëô1
+V	java:S106‘"9Replace this use of System.out or System.err by a logger.(³êíŠ8ÇÔÓëô1
+V	java:S106—"9Replace this use of System.out or System.err by a logger.(ÙÅÖ8ÉÔÓëô1
+|
+java:S2142§"^Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.(ä ¹€8ÊÔÓëô1
+^	java:S125 "<This block of commented-out lines of code should be removed.(ì‡‹¦ÿÿÿÿÿ8ÊÔÓëô1
+M
+java:S1874°"/Remove this use of "Handler"; it is deprecated.(®µı¬8ÌÔÓëô1
+Y	java:S125¼"<This block of commented-out lines of code should be removed.(¾¦¿“8ÑÔÓëô1
+M
+java:S1874Ö"/Remove this use of "Handler"; it is deprecated.(’Ú©Š8ÕÔÓëô1
+M
+java:S1874ğ"/Remove this use of "Handler"; it is deprecated.(’Ú©Š8ØÔÓëô1
+M
+java:S1874ÿ"/Remove this use of "Handler"; it is deprecated.(®µı¬8ÛÔÓëô1
+M
+java:S1874"/Remove this use of "Handler"; it is deprecated.(Üş×ó8ŞÔÓëô1
+^	java:S125«"<This block of commented-out lines of code should be removed.(¶‘™ùûÿÿÿÿ8âÔÓëô1
+G
+java:S3398Ì"$Move this method into "loginButton".(÷°úÿÿÿÿ8äÔÓëô1
+G
+java:S3398æ"$Move this method into "loginButton".(¡Ï¦øÿÿÿÿ8äÔÓëô1
+J
+java:S1068-"-Remove this unused "autologin" private field.(ÃÚşí8åÔÓëô1
