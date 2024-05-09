@@ -1,16 +1,15 @@
-package com.example.vhr.fragment.Publish;
+package com.example.vhr.fragment.statistics;
 
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;
 import androidx.lifecycle.ViewModel;
 
-public class PublishViewModel extends ViewModel {
-
+public class StatisticsViewModel extends ViewModel {
     private final MutableLiveData<String> mText;
 
-    public PublishViewModel() {
+    public StatisticsViewModel() {
         mText = new MutableLiveData<>();
-        mText.setValue("This is system fragment");
+        mText.setValue("This is statistics fragment");
     }
 
     public LiveData<String> getText() {

@@ -30,7 +30,7 @@ java:S1659,"/Declare "et_input_password" on a separate line.(·×‘Ì
 D
 java:S1659-"'Declare "autologin" on a separate line.(ÃÚşí8©ÔÓëô1
 w
-java:S1450)"URemove the "signup" field and declare it as a local variable in the relevant methods.(Á²ıùÿÿÿÿ8 ´ûëô1
+java:S1450)"URemove the "signup" field and declare it as a local variable in the relevant methods.(Á²ıùÿÿÿÿ8Ğƒïô1
 X	java:S1253"<This block of commented-out lines of code should be removed.(¤ìÎ™8°ÔÓëô1
 T
 java:S1854H"7Remove this useless assignment to local variable "spf".(ƒÉğÃ8²ÔÓëô1
@@ -63,8 +63,8 @@ M
 java:S1874"/Remove this use of "Handler"; it is deprecated.(Üş×ó8ŞÔÓëô1
 ^	java:S125«"<This block of commented-out lines of code should be removed.(¶‘™ùûÿÿÿÿ8âÔÓëô1
 G
-java:S3398æ"$Move this method into "loginButton".(¡Ï¦øÿÿÿÿ8äÔÓëô1
-G
 java:S3398Ì"$Move this method into "loginButton".(÷°úÿÿÿÿ8äÔÓëô1
+G
+java:S3398æ"$Move this method into "loginButton".(¡Ï¦øÿÿÿÿ8äÔÓëô1
 J
 java:S1068-"-Remove this unused "autologin" private field.(ÃÚşí8åÔÓëô1

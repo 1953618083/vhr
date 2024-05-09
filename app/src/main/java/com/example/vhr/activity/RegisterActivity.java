@@ -10,6 +10,7 @@ import android.view.Window;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageView;
+import android.widget.Toast;
 
 import com.example.vhr.R;
 
@@ -78,7 +79,14 @@ public class RegisterActivity extends AppCompatActivity {
     @SuppressLint("ResourceType")
     private class regClick implements View.OnClickListener {
         public void onClick(View view){
-
+            if(mClearUserNameView!=null){
+                // 跳回登陆界面
+                Toast.makeText(RegisterActivity.this, "注册成功", Toast.LENGTH_SHORT).show();
+                Intent intent = new Intent();
+                intent.setClass(RegisterActivity.this, LoginActivity.class);
+                intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+                startActivity(intent);
+            }
         }
     }
 }
