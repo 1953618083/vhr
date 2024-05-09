@@ -14,10 +14,7 @@ import android.util.AttributeSet;
 
 public class CricleImage extends androidx.appcompat.widget.AppCompatImageView {
 
-    /**
-     * 3个构造函数
-     * @param context
-     */
+    /**   3个构造函数   **/
     public CricleImage(Context context) {
         super(context);
     }
