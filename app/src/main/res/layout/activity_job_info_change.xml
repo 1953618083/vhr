@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray"
+    android:orientation="vertical"
+    tools:context=".activity.AddActivity">
+
+    <RelativeLayout
+        android:id="@+id/rl1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/blue_500"
+        android:padding="10dp">
+
+        <Button
+            android:id="@+id/job_cancel"
+            android:layout_width="70dp"
+            android:layout_height="40dp"
+            android:layout_alignParentStart="true"
+            android:background="@drawable/bg_btn_oringe_radius50"
+            android:gravity="center"
+            android:text="取消"
+            android:textColor="@color/black"
+            android:textSize="14dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:padding="5dp"
+            android:text="信息"
+            android:textColor="@color/colo_white"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/job_finish"
+            android:layout_width="70dp"
+            android:layout_height="40dp"
+            android:layout_alignParentEnd="true"
+            android:background="@drawable/bg_btn_oringe_radius50"
+            android:text="完成"
+            android:textColor="@color/black"
+            android:textSize="14dp" />
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rl1">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingBottom="370dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="433dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/shape_white"
+                android:orientation="vertical">
+
+                <EditText
+                    android:id="@+id/name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@null"
+                    android:hint="员工姓名："
+                    android:maxLines="1"
+                    android:padding="10dp"
+                    android:textColor="@color/text_main"
+                    android:textColorHint="@color/text_main1"
+                    android:textSize="16dp" />
+
+                <EditText
+                    android:id="@+id/idNumber"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@null"
+                    android:hint="身份证号："
+                    android:maxLines="1"
+                    android:padding="10dp"
+                    android:textColor="@color/text_main"
+                    android:textColorHint="@color/text_main1"
+                    android:textSize="16dp" />
+
+                <EditText
+                    android:id="@+id/email"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@null"
+                    android:hint="邮箱："
+                    android:maxLines="1"
+                    android:padding="10dp"
+                    android:textColor="@color/text_main"
+                    android:textColorHint="@color/text_main1"
+                    android:textSize="16dp" />
+
+                <EditText
+                    android:id="@+id/tel"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@null"
+                    android:hint="电话："
+                    android:maxLines="1"
+                    android:padding="10dp"
+                    android:textColor="@color/text_main"
+                    android:textColorHint="@color/text_main1"
+                    android:textSize="16dp" />
+
+                <EditText
+                    android:id="@+id/base"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@null"
+                    android:gravity="start|top"
+                    android:hint="工作地点："
+                    android:maxLines="4"
+                    android:padding="10dp"
+                    android:textColor="@color/text_main"
+                    android:textColorHint="@color/text_main1"
+                    android:textSize="16dp" />
+
+                <EditText
+                    android:id="@+id/jobName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@null"
+                    android:gravity="start|top"
+                    android:hint="岗位名称："
+                    android:maxLines="4"
+                    android:padding="10dp"
+                    android:textColor="@color/text_main"
+                    android:textColorHint="@color/text_main1"
+                    android:textSize="16dp" />
+
+                <EditText
+                    android:id="@+id/begincontract"
+                    android:layout_width="match_parent"
+                    android:layout_height="72dp"
+                    android:background="@null"
+                    android:gravity="start|top"
+                    android:hint="合同开始时间："
+                    android:maxLines="4"
+                    android:padding="10dp"
+                    android:textColor="@color/text_main"
+                    android:textColorHint="@color/text_main1"
+                    android:textSize="16dp" />
+
+                <EditText
+                    android:id="@+id/endcontract"
+                    android:layout_width="match_parent"
+                    android:layout_height="72dp"
+                    android:background="@null"
+                    android:gravity="start|top"
+                    android:hint="合同中止时间："
+                    android:maxLines="4"
+                    android:padding="10dp"
+                    android:textColor="@color/text_main"
+                    android:textColorHint="@color/text_main1"
+                    android:textSize="16dp" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

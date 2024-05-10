@@ -1,4 +1,4 @@
-package com.example.vhr.entity；
+package com.example.vhr.entity;
 
 import java.util.List;
 

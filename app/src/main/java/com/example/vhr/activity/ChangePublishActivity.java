@@ -151,7 +151,7 @@ public class ChangePublishActivity extends AppCompatActivity {
                     } catch (InterruptedException e) {
                         e.printStackTrace();
                     }
-                    if (result.getStatus() == 200) {
+                    if (result.getStatus() != 200) {
                         deleteData();
                         Toast.makeText(ChangePublishActivity.this, "修改信息成功", Toast.LENGTH_SHORT).show();
                         ChangePublishActivity.this.finish();

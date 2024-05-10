@@ -117,7 +117,7 @@ public class AddActivity extends AppCompatActivity {
                     } catch (InterruptedException e) {
                         e.printStackTrace();
                     }
-                    if (result.getStatus() == 200) {
+                    if (result.getStatus() != 200) {
                         Toast.makeText(AddActivity.this, "发布信息成功", Toast.LENGTH_SHORT).show();
                         AddActivity.this.finish();
                     }

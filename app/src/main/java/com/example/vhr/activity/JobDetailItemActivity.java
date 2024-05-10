@@ -31,7 +31,7 @@ public class JobDetailItemActivity extends AppCompatActivity {
     private Integer job_id;
     private TextView back;
     private TextView name,idNumber,email,tel,base,jobName,beginContract,endContract;
-    private Button promotion,fire;
+    private Button promotion,fire,jobChange;
     private OnTheJobBean onTheJobBean;
     private AjaxResult result;
 
@@ -57,10 +57,12 @@ public class JobDetailItemActivity extends AppCompatActivity {
         base = findViewById(R.id.base);
         fire = findViewById(R.id.fire);
         back = (TextView) findViewById(R.id.tv_back);
+        jobChange=findViewById(R.id.job_change);
 
         back.setOnClickListener(new click());
         promotion.setOnClickListener(new click());
         fire.setOnClickListener(new click());
+        jobChange.setOnClickListener(new click());
     }
 
     private void initData() {
@@ -171,6 +173,33 @@ public class JobDetailItemActivity extends AppCompatActivity {
                         Toast.makeText(JobDetailItemActivity.this, "开除员工失败", Toast.LENGTH_SHORT).show();
                     }
                     break;
+                case R.id.job_change:
+                    intent.setClass(JobDetailItemActivity.this, JobInfoChangeActivity.class);
+                    String name1=name.getText().toString().trim();
+                    String idNumber1=idNumber.getText().toString().trim();
+                    String email1=email.getText().toString().trim();
+                    String tel1=tel.getText().toString().trim();
+                    String jobName1=jobName.getText().toString().trim();
+                    String beginContract1=beginContract.getText().toString().trim();
+                    String endContract1=endContract.getText().toString().trim();
+                    String base1=base.getText().toString().trim();
+                    Bundle bundle=new Bundle();
+                    bundle.putString("name",name1);
+                    bundle.putString("idNumber",idNumber1);
+                    bundle.putString("email",email1);
+                    bundle.putString("tel",tel1);
+                    bundle.putString("jobName",jobName1);
+                    bundle.putString("beginContract",beginContract1);
+                    bundle.putString("endContract",endContract1);
+                    bundle.putString("base",base1);
+                    bundle.putInt("info_id", job_id);
+                    intent.putExtras(bundle);
+                    startActivity(intent);
+                    break;
+                /*
+
+
+                 */
             }
 
         }
